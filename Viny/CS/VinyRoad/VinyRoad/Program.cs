@@ -13,8 +13,10 @@ namespace VinyRoad
             return a + b;
         }
 
-        static int Read() 
+        static int Read(string text) 
         {
+            Console.WriteLine(text);
+
             int c;
             c = int.Parse(Console.ReadLine());
 
@@ -25,11 +27,9 @@ namespace VinyRoad
         {
             int x, y, z;
 
-            Console.WriteLine("Введите первое слогаемое");
-            x = Program.Read();
+            x = Program.Read("Введите первое слогаемое");
 
-            Console.WriteLine("Введите второе слогаемое");
-            y = Program.Read();
+            y = Program.Read("Введите второе слогаемое");
 
             z = Sum(x, y);
 

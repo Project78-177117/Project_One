@@ -1,0 +1,7 @@
+C:\Users\Alexander\Documents\GitHub\Project_One\Viny\CS\VinyRoad\VinyRoad\bin\Debug\VinyRoad.exe.config
+C:\Users\Alexander\Documents\GitHub\Project_One\Viny\CS\VinyRoad\VinyRoad\bin\Debug\VinyRoad.exe
+C:\Users\Alexander\Documents\GitHub\Project_One\Viny\CS\VinyRoad\VinyRoad\bin\Debug\VinyRoad.pdb
+C:\Users\Alexander\Documents\GitHub\Project_One\Viny\CS\VinyRoad\VinyRoad\obj\Debug\VinyRoad.csprojAssemblyReference.cache
+C:\Users\Alexander\Documents\GitHub\Project_One\Viny\CS\VinyRoad\VinyRoad\obj\Debug\VinyRoad.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Documents\GitHub\Project_One\Viny\CS\VinyRoad\VinyRoad\obj\Debug\VinyRoad.exe
+C:\Users\Alexander\Documents\GitHub\Project_One\Viny\CS\VinyRoad\VinyRoad\obj\Debug\VinyRoad.pdb

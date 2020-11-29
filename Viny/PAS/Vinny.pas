@@ -1,26 +1,24 @@
 program Vinny_puh;
 
-Function ReadPosition(person,k :String) :integer;
+Function ReadInteger(text :String) :integer;
 var
-	position :integer;
+	integerVar :integer;
 begin
-	Write('Координата ',k,' ',person,' :');
-	Readln(position);
-	ReadPosition := position
+	Write(text);
+	Readln(integerVar);
+	ReadInteger := integerVar
 end;
 var
 	viHomeX, viHomeY :integer;
 	pyHomeX, pyHomeY :integer;
 	ravineX, ravineY, ravineRadius :Integer;
 begin 
-	viHomeX := ReadPosition('дома Винни','X');
-	viHomeY := ReadPosition('дома Винни','Y');
-	pyHomeX := ReadPosition('дома Пяточка','X');
-	pyHomeY := ReadPosition('дома Пяточка','Y');
-	ravineX := ReadPosition('Оврага','X');
-	ravineY := ReadPosition('Оврага','Y');
-
-	Write('Радиус Оврага:');
-	readln(ravineRadius);
+	viHomeX := ReadInteger('Введи координату X дома Винни:');
+	viHomeY := ReadInteger('Введи координату Y дома Винни:');
+	pyHomeX := ReadInteger('Введи координату X дома Пяточка:');
+	pyHomeY := ReadInteger('Введи координату Y дома Пяточка:');
+	ravineX := ReadInteger('Введи координату X Оврага:');
+	ravineY := ReadInteger('Введи координату Y Оврага:');
+	ravineRadius := ReadInteger('Введи радиус Оврага:');
 
 end.

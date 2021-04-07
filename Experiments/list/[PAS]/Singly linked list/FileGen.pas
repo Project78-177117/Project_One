@@ -22,5 +22,6 @@ begin
 	end;
 
 	close(list);
-	write('В файл ', fileName, ' внесено ', amount, ' чисел от -100 до 100');
+	write('В файл ', fileName, ' внесено ', amount, ' чисел(о) от -100 до 100');
+	readln();
 end.

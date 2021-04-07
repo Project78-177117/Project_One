@@ -1,5 +1,4 @@
-
-program list;
+﻿program list;
 
 type
 
